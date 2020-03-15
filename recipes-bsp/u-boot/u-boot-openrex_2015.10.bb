@@ -16,7 +16,7 @@ version, or because it is not applicable for upstreaming."
 
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=0507cd7da8e7ad6d6701926ec9b84c95"
-COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex|imx6s-openrex)"
 
 PROVIDES += "u-boot"
 PV = "v2015.10+git${SRCPV}"
@@ -25,7 +25,7 @@ SRCBRANCH ??= "jethro"
 SRC_URI = "git://github.com/PeakNoise/openrex-uboot-v2015.10.git;branch=${SRCBRANCH}"
 
 #SRCREV is the commit number, must always be changed for a new version
-SRCREV = "e728866c1a7f3cbf976b51d4d46adbcd92d75a42"
+SRCREV = "45f6b076e43480361ce8fe265123c1cace8f71f5"
 
 S = "${WORKDIR}/git"
 

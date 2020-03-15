@@ -15,7 +15,7 @@ SRCBRANCH = "jethro"
 LOCALVERSION = "-fslc"
 
 #SRCREV is the branch number, update according to your last commit
-SRCREV = "434b424c11a9589feea98dfed1b1a59866165489"
+SRCREV = "578482c6aab0bdecd0fa3fd360bc7fd4ea202808"
 
 SRC_URI = "git://github.com/PeakNoise/openrex-linux-3.14.git;branch=${SRCBRANCH} \
            file://defconfig"
@@ -23,4 +23,4 @@ SRC_URI = "git://github.com/PeakNoise/openrex-linux-3.14.git;branch=${SRCBRANCH}
 #PV .= "+git${SRCPV}"
 PV .=""
 
-COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex|imx6s-openrex)"
